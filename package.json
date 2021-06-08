@@ -1,0 +1,24 @@
+{
+  "name": "tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "fizzbuzz.js",
+  "scripts": {
+    "run": "node dist"
+  },
+  "author": "farvellmaster",
+  "license": "ISC",
+  "dependencies": {
+    "@types/chai": "^4.2.18",
+    "@types/jest": "^26.0.23",
+    "chai": "^4.3.4",
+    "jest": "^27.0.4",
+    "solution": "^0.1.1",
+    "typescript": "^4.3.2"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.26.0",
+    "@typescript-eslint/parser": "^4.26.0",
+    "eslint": "^7.28.0"
+  }
+}
