@@ -18,7 +18,7 @@
 ## Where to start.
 
 - tsc script-name - compile typescript.
-- node script-name  execute test.
+- node script-name - execute test.
 
 ## Questions?
 
