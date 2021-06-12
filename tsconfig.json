@@ -6,6 +6,7 @@
         "node_modules",
     ],
     "compilerOptions": {
+        "module": "ESNext",
         "outDir": "./dist/",
         // Target latest version of ECMAScript.
         "target": "esnext",

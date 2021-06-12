@@ -5,8 +5,10 @@
     "main": "index.test.js",
     "scripts": {
         "dev": "nodemon ./src/index.ts",
-        "build": "tsc",
-        "test": "npm run build && jest"
+        "start": "node ./src/factorial/largeFactorial.js",
+        "build": "tsc src/factorial/largeFactorial.ts",
+        "test": "npm run build && jest",
+        "jj": "node src/exampleTest.js"
     },
     "author": "farvellmaster",
     "license": "ISC",
