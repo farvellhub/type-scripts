@@ -1,32 +1,42 @@
-export default class FizzBuzz {
-	array: Array<number>;
+// const fizzBuzz = ( array ) => {
+//     return array.map(( number ) => {
+//         if ( number === 0 ) return number;
+//         if ( number % 3 === 0 && number % 5 === 0 ) return "fizzbuzz";
+//         if ( number % 3 === 0 ) return "fizz";
+//         if ( number % 5 === 0 ) return "buzz";
+//         return number;
+//     });
+// };
 
-	constructor( length: number ) {
-		this.array =  Array.from( new Array( length ).keys());
+// console.log( fizzBuzz([ ...Array( 50 ).keys() ]));
 
-		return this.solve();
-	}
+class FizzBuzz {
+    array: Array<number>;
 
-	private conditions( value: number ) {
-		return {
-			zero: ( value === 0 ),
-			fizz: ( value % 3 === 0 ),
-			buzz: ( value % 5 === 0 )
-		};
-	}
+    constructor( length: number ) {
+        this.array =  Array.from( new Array( length ).keys());
+    }
 
-	private solve(): any {
-		return this.array.map(( value ) => {
-			const conds = this.conditions( value );
+    private conditions( value: number ) {
+        return {
+            zero: ( value === 0 ),
+            fizz: ( value % 3 === 0 ),
+            buzz: ( value % 5 === 0 )
+        };
+    }
 
-			if ( conds.zero ) return value;
-			if ( conds.fizz && conds.buzz ) return "fizzbuzz";
-			if ( conds.fizz ) return "fizz";
-			if ( conds.buzz ) return "buzz";
+    public solve(): Array<string> {
+        return this.array.map(( value: number ): string => {
+            const conds: { [ key: string ]: boolean  } = this.conditions( value );
 
-			return value;
-		});
-	}
+            if ( conds.zero ) return `${ value }`;
+            if ( conds.fizz && conds.buzz ) return "fizzbuzz";
+            if ( conds.fizz ) return "fizz";
+            if ( conds.buzz ) return "buzz";
+
+            return `${ value }`;
+        });
+    }
 }
 
-console.log( new FizzBuzz( 9999 ));
+export default FizzBuzz;

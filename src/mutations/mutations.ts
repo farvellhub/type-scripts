@@ -1,26 +1,26 @@
-export default class Mutations {
-	turn: number;
+// export default class Mutations {
+//     turn: number;
 
-	constructor(  ) {
-		this.turn = 0;
-	}
+//     constructor(  ) {
+//         this.turn = 0;
+//     }
 
-	static solve(): number {
+//     static solve(): number {
 
-		do {
+//         do {
 
-		} while ( /*condiciion de victoria */ );
+//         } while ( /*condiciion de victoria */ );
 
-		return -1;
-	}
+//         return -1;
+//     }
 
-	static eqWords( alice, bob ): number {
+//     static eqWords( alice, bob ): number {
 
-	}
+//     }
 
-	static round(): number {
+//     static round(): number {
 
-	}
-}
+//     }
+// }
 
-console.log( Mutations.solve());
+// console.log( Mutations.solve());
