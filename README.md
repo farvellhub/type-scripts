@@ -9,7 +9,7 @@
  <a href="https://discord.gg/tpNtcJHw" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
 </p>
 
-> Typescript katas while i'm learning it.
+> Typescript katas while i'm learning it. Test driven unit.
 
 ## Installation
 

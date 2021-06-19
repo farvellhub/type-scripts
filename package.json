@@ -4,18 +4,15 @@
     "description": "",
     "main": "index.test.js",
     "scripts": {
-        "dev": "nodemon ./src/index.ts",
-        "start": "node ./src/factorial/largeFactorial.js",
-        "build": "tsc src/factorial/largeFactorial.ts",
-        "test": "npm run build && jest",
-        "jj": "node src/exampleTest.js"
+        "test": "jest",
+        "factorial": "jest factorial",
+        "fizzbuzz": "jest fizzbuzz"
     },
     "author": "farvellmaster",
     "license": "ISC",
     "dependencies": {
         "@types/jest": "^26.0.23",
         "jest": "^27.0.4",
-        "nodemon": "^2.0.7",
         "solution": "^0.1.1",
         "ts-node": "^10.0.0"
     },

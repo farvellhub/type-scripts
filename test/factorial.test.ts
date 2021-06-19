@@ -1,4 +1,4 @@
-import largeFactorial from "./factorial/largeFactorial";
+import largeFactorial from "../src/factorial/largeFactorial";
 
 describe( "Large Factorials", () => {
     it( "Small Tests", () => {
