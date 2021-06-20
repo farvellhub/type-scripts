@@ -1,4 +1,4 @@
-import fizzbuzz from "../src/fizzbuzz/fizzbuzz";
+import fizzbuzz from "../src/fizzbuzz";
 
 describe( "Large Factorials", () => {
     it( "Zero", () => {
