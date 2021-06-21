@@ -8,7 +8,9 @@
         "factorial": "jest factorial",
         "fizzbuzz": "jest fizzbuzz",
         "vowels": "jest vowels",
-        "arraydiff": "jest arraydiff"
+        "arraydiff": "jest arraydiff",
+        "spinwords": "jest spinwords",
+        "mumbling": "jest mumbling"
     },
     "author": "farvellmaster",
     "license": "ISC",
