@@ -10,21 +10,26 @@
 // };
 
 const mumbling = ( phrase: string ) => {
-    let total: number = 1, accum: number = 0;
+    let total: number = 1;
   
-    let sol: string = phrase.split( "" ).map(( letter: string ) => {
-        
-        do {
-            if ( accum === ( total - 1 ))
-                return "-";
+    return phrase.split( "" ).map(( letter: string, size: number ) => {
+        let temp: string = "", accum: number = 0;
+
+        while ( accum < total ) {
+            temp += ( accum === 0 )
+                ? letter.toUpperCase()
+                : letter.toLowerCase();
             
-            return ( accum++ === 0 )
-                ? letter.toUpperCase
-                : letter.toLowerCase;
-        
-        } while ( accum < total++ );;
+            if ( accum++ === ( total - 1 )
+            && ( size + 1 ) !== ( phrase.length - 1 )) {
+                temp += "-";
+            }
+            
+            accum = 0;
+        }
 
+        return temp;
     }).join( "" );
-
-    return sol;
 };
+
+export default mumbling;
