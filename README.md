@@ -17,10 +17,9 @@
 
 ## Where to start.
 
-- tsc [script-name] - compile typescript.
-- node [script-name] - execute script.
+- ts-node [script-name] - Execute script.
 - npm run test - Jest prove all tests.
-- npm run [name-script]- Jest specific test.
+- npm run [script-name] - Jest specific test.
 
 ## Questions?
 
