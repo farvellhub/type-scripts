@@ -1,4 +1,4 @@
-const pascalTriangle = ( lines: number ) => {
+const pascalTriangle = ( lines: number ): Array<Array<number>> => {
     const triangle: Array<Array<number>> = [];
     let currentLine: Array<number> = [1];
     triangle.push( currentLine );
