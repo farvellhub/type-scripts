@@ -4,14 +4,7 @@
     "description": "",
     "main": "index.test.js",
     "scripts": {
-        "test": "jest",
-        "factorial": "jest factorial",
-        "fizzbuzz": "jest fizzbuzz",
-        "vowels": "jest vowels",
-        "arraydiff": "jest arraydiff",
-        "spinwords": "jest spinwords",
-        "mumbling": "jest mumbling",
-        "pascal": "jest pascalsTriangle"
+        "test": "jest"
     },
     "author": "farvellmaster",
     "license": "ISC",

@@ -1,4 +1,4 @@
-import arrayDiff from "../src/arraydiff";
+import arrayDiff from "../src/arrayDiff";
 
 describe( "Difference between arrays", () => {
     it( "Some", () => {
