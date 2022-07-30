@@ -1,6 +1,6 @@
-import spinWords from "../src/spinwords";
+import spinWords from "./spinwords";
 
-describe( "Sppinning words", () => {
+describe( "Spinning words", () => {
     it( "Hi", () => {
         expect( spinWords( "Hi" ) ).toStrictEqual( "Hi" );
     });

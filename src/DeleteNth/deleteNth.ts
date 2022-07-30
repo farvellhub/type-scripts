@@ -1,3 +1,4 @@
+
 // const deleteNth = (arr, x) => {
 //   return arr.filter((e, i) => {
 //     return arr.slice(0, i).filter((l) => {
@@ -5,6 +6,7 @@
 //     }).length < x;
 //   });
 // }
+
 
 const deleteNth = ( array: Array<any>, nth: number ) => {
   return array.filter(( element: any, index: number ) => {

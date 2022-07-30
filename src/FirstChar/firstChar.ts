@@ -1,3 +1,4 @@
+
 // const firstNonRepeatingLetter = (s) => {
 //   let arr = s.toLowerCase().split('');
   
@@ -7,6 +8,7 @@
 //     }).length === 1;
 //   })] || "";
 // }
+
 
 const firstChar = ( word: string ) => {
   let arr = word.toLowerCase().split("");

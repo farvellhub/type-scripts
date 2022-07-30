@@ -1,3 +1,4 @@
+
 // const accum = phrase => {
 //   let inc = 1, sol = "";
   
@@ -8,6 +9,7 @@
 //     } inc++;
 //   } return sol;
 // };
+
 
 const mumbling = ( phrase: string ) => {
      let total: number = 1;

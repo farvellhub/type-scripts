@@ -1,7 +1,7 @@
-import selectionSort from "../src/selection";
+import selectionSort from "./selectionSort";
 
 
-describe( "Sppinning words", () => {
+describe( "Selection Sort", () => {
     it( "Simple test", () => {
         expect( selectionSort( [ 3, 2, 1 ] ) ).toStrictEqual( [ 1, 2, 3 ] );
     });

@@ -1,6 +1,6 @@
-import fizzbuzz from "../src/fizzbuzz";
+import fizzbuzz from "./fizzbuzz";
 
-describe( "Large Factorials", () => {
+describe( "Fizz Buzz", () => {
     it( "Zero", () => {
         expect( fizzbuzz( 0 ) ).toStrictEqual( [] );
     });

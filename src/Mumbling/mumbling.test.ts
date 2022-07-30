@@ -1,4 +1,4 @@
-import mumbling from "../src/mumbling";
+import mumbling from "./mumbling";
 
 describe( "Mumbling", () => {
     it( "Hi", () => {

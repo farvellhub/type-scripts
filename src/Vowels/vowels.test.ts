@@ -1,4 +1,4 @@
-import vowels from "../src/vowels";
+import vowels from "./vowels";
 
 describe( "Count Vowels", () => {
     it( "Hi", () => {

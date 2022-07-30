@@ -1,4 +1,4 @@
-import pascalsTriangle from "../src/pascalsTriangle";
+import pascalsTriangle from "./pascalsTriangle";
 
 describe( "Pascal's Triangle", () => {
     it( "Error Test", () => {

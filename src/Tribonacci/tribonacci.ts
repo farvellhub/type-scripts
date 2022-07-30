@@ -1,3 +1,4 @@
+
 // function tribonacci(signature,n){
 //   var temp = 0;
   
@@ -13,6 +14,8 @@
 //   console.log(signature);
 //   return signature;
 // }
+
+
 
 function tribonacci( signature: Array<number>, key: number ){
     var temp: number = 0;

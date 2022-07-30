@@ -6,7 +6,7 @@
     "scripts": {
         "test": "jest"
     },
-    "author": "farvellmaster",
+    "author": "farvell",
     "license": "ISC",
     "dependencies": {
         "@types/jest": "^26.0.23",

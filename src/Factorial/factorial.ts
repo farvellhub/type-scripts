@@ -1,3 +1,4 @@
+
 // function factorial(userInt) {
 //     if (userInt === 0) return '1';
 //     if (!userInt) return '';
@@ -20,6 +21,7 @@
 
 //   return result.reverse().join('')
 // }
+
 
 const largeFactorial = (factNumber: number): string => {
     if (!factNumber) return "";
