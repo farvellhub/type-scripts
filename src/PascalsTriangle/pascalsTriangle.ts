@@ -1,23 +1,21 @@
-const pascalTriangle = ( lines: number ): Array<Array<number>> => {
-    const triangle: Array<Array<number>> = [];
-    let currentLine: Array<number> = [1];
-    triangle.push( currentLine );
-    
-    if ( lines <= 1 ) return triangle;
+export default function PascalTriangle(lines: number): number[][] {
+    const triangle: number[][] = [];
+    let currentLine: number[] = [1];
+    triangle.push(currentLine);
 
-    for ( let i = 1; i <= lines; i++ ) {
-        const nextLine = [];
+    if (lines <= 1) return triangle;
+
+    for (let line = 1; line <= lines; line++) {
+        const nextLine: number[] = [];
         nextLine[0] = 1;
-        nextLine[i] = 1;
+        nextLine[line] = 1;
 
-        for ( let j = 1; j < i; j++ )
-            nextLine[j] = currentLine[j-1] + currentLine[j];
-        
+        for (let index = 1; index < line; index++)
+            nextLine[index] = currentLine[index - 1] + currentLine[index];
+
         currentLine = nextLine;
-        triangle.push( currentLine );
+        triangle.push(currentLine);
     }
 
     return triangle;
-};
-
-export default pascalTriangle;
+}

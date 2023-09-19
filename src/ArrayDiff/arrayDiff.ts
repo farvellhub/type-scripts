@@ -1,14 +1,3 @@
-
-// const arrayDiff = ( a, b ) => {
-//     return a.filter(( number ) => {
-//       return !b.includes( number );
-//     })
-// }
-
-const arrayDiff = (array: Array<any>, diff: Array<any>) => {
-    return array.filter(( value: any ) => {
-      return !diff.includes( value );
-    })
+export default function ArrayDiff<T>(array: Array<T>, diff: Array<T>): Array<T> {
+  return array.filter((value: T) => !diff.includes(value));
 }
-
-export default arrayDiff;

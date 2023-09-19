@@ -17,13 +17,9 @@
 
 ## Where to start.
 
-- ts-node [script-name] - Execute script.
+- npx ts-node [script-name] - Execute script.
+- npx jest [script-name] - Jest specific test.
 - npm run test - Jest prove all tests.
-- npm run [script-name] - Jest specific test.
-
-## Questions?
-
-If you have any questions, please feel free to contact me on discord Farvell⚡#3387.
 
 ***
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_

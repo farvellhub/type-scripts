@@ -1,16 +1,16 @@
-import vowels from "./vowels";
+import Vowels from "./Vowels";
 
-describe( "Count Vowels", () => {
-    it( "Hi", () => {
-        expect( vowels( "Hi" ) ).toStrictEqual( 1 );
+describe("Count Vowels", () => {
+    it("Hi", () => {
+        expect(Vowels("Hi")).toStrictEqual(1);
     });
-    it( "One", () => {
-        expect( vowels( "One" ) ).toStrictEqual( 2 );
+    it("One", () => {
+        expect(Vowels("One")).toStrictEqual(2);
     });
-    it( "Abracadabra", () => {
-        expect( vowels( "Abracadabra" ) ).toStrictEqual( 5 );
+    it("Abracadabra", () => {
+        expect(Vowels("Abracadabra")).toStrictEqual(5);
     });
-    it( "Too long phrase that we count all chars in.", () => {
-        expect( vowels( "Too long phrase that we count all chars in." ) ).toStrictEqual( 12 );
+    it("Too long phrase that we count all chars in.", () => {
+        expect(Vowels("Too long phrase that we count all chars in.")).toStrictEqual(12);
     });
 });

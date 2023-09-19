@@ -1,6 +1,6 @@
-const selectionSort = (array: Array<number>) => {
-    const copy = [...array];
-    for (let index = 0; index < copy.length; index++ ) {
+export default function SelectionSort(array: number[]) {
+    const copy: number[] = [...array];
+    for (let index = 0; index < copy.length; index++) {
         for (let next = index + 1; next < copy.length; next++) {
             if (copy[next] < copy[index]) {
                 const temp = copy[index];
@@ -9,8 +9,5 @@ const selectionSort = (array: Array<number>) => {
             }
         }
     };
-
     return copy;
 };
-
-export default selectionSort;

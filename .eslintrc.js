@@ -1,10 +1,8 @@
 module.exports = {
     "env": {
-        "browser": true,
-        "es2021": true,
-        "commonjs": true
+        "es2021": true
     },
-    "ignore-patterns": [ "*.js" ],
+    "ignore-patterns": ["*.js"],
     "extends": [
         "eslint:recommended",
         "plugin:@typescript-eslint/recommended"
@@ -14,42 +12,5 @@ module.exports = {
         "ecmaVersion": 12,
         "sourceType": "module"
     },
-    "plugins": [
-        "@typescript-eslint"
-    ],
-    "rules": {
-        "indent": [
-            "error",
-            4
-        ],
-        "quotes": [
-            "error",
-            "double"
-        ],
-        "semi": [
-            "error",
-            "always"
-        ],
-        "object-curly-spacing": [
-            "error",
-            "always"
-        ],
-        "array-bracket-spacing": [
-            "error",
-            "always"
-        ],
-        "space-in-parens": [
-            "error",
-            "always",
-            {
-                "exceptions": [
-                    "{}",
-                    "[]",
-                    "()",
-                    "empty"
-                ]
-            }
-        ]
-    }
+    "plugins": ["@typescript-eslint"]
 };
-
