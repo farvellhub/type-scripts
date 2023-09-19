@@ -7,7 +7,7 @@ describe("Fizz Buzz", () => {
     it("One", () => {
         expect(FizzBuzz(1)).toStrictEqual(["0"]);
     });
-    it("10", () => {
+    it("Ten", () => {
         expect(FizzBuzz(10)).toStrictEqual(["0", "1", "2", "fizz", "4", "buzz", "fizz", "7", "8", "fizz"]);
     });
     it("FizzBuzz", () => {

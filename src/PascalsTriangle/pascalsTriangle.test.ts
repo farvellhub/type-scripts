@@ -1,9 +1,8 @@
 import PascalsTriangle from "./PascalsTriangle";
 
-describe("Pascal's Triangle", () => {
+describe("Pascal's triangle", () => {
     it("Error Test", () => {
         expect(PascalsTriangle(1)).toEqual([[1]]);
-
     });
 
     it("Mid Tests", () => {

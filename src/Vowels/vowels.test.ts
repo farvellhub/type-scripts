@@ -1,6 +1,6 @@
 import Vowels from "./Vowels";
 
-describe("Count Vowels", () => {
+describe("Count vowels", () => {
     it("Hi", () => {
         expect(Vowels("Hi")).toStrictEqual(1);
     });
